@@ -426,12 +426,20 @@ a {
 .TrumpDaddy-web-page .TrumpDaddy-page-back img {
     width: 100%;
     height: 5400px;
-    top: 650px;
+    top: 120px;
     position: absolute;
     z-index: -1;
 }
 
-source{
-    width: 100%;
-    height: 100%;  
+.banner-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+#myVideo{
+    width: 1200px;
+    height: 801px;
+}
+
